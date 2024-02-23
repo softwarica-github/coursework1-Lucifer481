@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2024-02-11T03:55:50.947Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Dj4WVUzMudRBnOs8-mvm" version="23.1.2" type="google">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-18" value="user" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-19" value="MainWIndow" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="270" y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-20" value="EncryptionTool" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="470" y="90" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-21" value="" style="line;strokeWidth=2;direction=south;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="10" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-22" value="" style="line;strokeWidth=2;direction=south;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="10" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-23" value="" style="line;strokeWidth=2;direction=south;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="10" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-24" value="Decrypt Button" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="200" y="130" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.201;entryY=0.517;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="109.91" y="170" as="sourcePoint" />
+            <mxPoint x="329.99999999999994" y="169.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.201;entryY=0.517;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.204;exitY=0.526;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="251" as="sourcePoint" />
+            <mxPoint x="530" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-28" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Initialize cipher&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;Read input file in chunks&amp;nbsp;&lt;/li&gt;&lt;li&gt;Decrypt each chunk&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;Write decrypted data&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;&amp;nbsp;Update status&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;labelBackgroundColor=none;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="340" y="260" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.201;entryY=0.517;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.204;exitY=0.526;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="421" as="sourcePoint" />
+            <mxPoint x="530" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-30" value="Update Status" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-31" value="&lt;ul&gt;&lt;li&gt;Update GUI Status&lt;/li&gt;&lt;li&gt;Repeat When Done&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="350" y="430" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.806;entryY=0.596;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.82;exitY=0.517;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;strokeColor=#736CA8;fontColor=default;" edge="1" parent="1" source="Ulw6Qokk0Q7DGImhRuAw-22" target="Ulw6Qokk0Q7DGImhRuAw-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="520" as="sourcePoint" />
+            <mxPoint x="380" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-33" value="Status Update" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="150" y="470" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-34" value="Update GUI status" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="170" y="500" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-35" value="Decrypt Button" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ulw6Qokk0Q7DGImhRuAw-36" value="Decryption Process" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;fillColor=#5D7F99;strokeColor=#D0CEE2;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="365" y="220" width="135" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
